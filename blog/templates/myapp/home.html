@@ -1,0 +1,23 @@
+<!-- myapp/templates/myapp/home.html -->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+  </head>
+  <body>
+    <h1>Список статей</h1>
+    <ul>
+      {% for article in articles %}
+      <li>
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.description }}</p>
+        <p>Категория: {{ article.category.name }}</p>
+      </li>
+      {% empty %}
+      <li>Нет статей для отображения.</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
