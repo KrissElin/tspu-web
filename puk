@@ -1,0 +1,14 @@
+До 11 декабря задания
+Ссылка на полную версию туториала https://developer.mozilla.org/ru/docs/Learn/Server-side/Django
+
+Задание 1.
+1. Развернуть проект.
+2. Добавить поле Описание(description) в модель.
+3. Сделать миграцию
+4. Применить миграцию
+
+Здание 2.
+1. Добавить модель Категория статьи.
+2. Добавить связь с моделью Статья(Article) через поле ForeignKey(подробней почитать тут https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Models, пример Book -> Author)
+3. Добавить главную страницу по примеру https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Home_page#%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9
+4. Добавить шиблон и вывести статьи в список с Описанием
